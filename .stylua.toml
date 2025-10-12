@@ -1,0 +1,30 @@
+# StyLua Configuration for BeamNG Stubs
+# https://github.com/JohnnyMorganz/StyLua
+
+# Column width for line wrapping
+column_width = 120
+
+# Indentation type and size
+indent_type = "Spaces"
+indent_width = 4
+
+# Quote style for strings
+quote_style = "AutoPreferDouble"
+
+# Call parentheses style
+call_parentheses = "Always"
+
+# Collapse simple statements onto one line
+collapse_simple_statement = "Never"
+
+# Sort requires alphabetically
+sort_requires = {
+    enabled = true
+}
+
+# Line endings
+line_endings = "Unix"
+
+# Include/exclude patterns
+[sort_requires]
+enabled = true
