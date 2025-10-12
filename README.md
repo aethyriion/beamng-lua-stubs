@@ -22,8 +22,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/aethyriion/beamng-stubs?style=social" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/aethyriion/beamng-stubs?style=social" alt="GitHub forks">
+  <img src="https://img.shields.io/github/stars/aethyriion/beamng-lua-stubs?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/aethyriion/beamng-lua-stubs?style=social" alt="GitHub forks">
 </p>
 
 </div>
@@ -41,6 +41,7 @@ Transform your BeamNG.drive modding experience with **comprehensive, auto-genera
 <td>
 
 🎯 **Complete API Coverage**
+
 - Engine-level APIs
 - Vehicle-level APIs
 - Core utilities & helpers
@@ -50,6 +51,7 @@ Transform your BeamNG.drive modding experience with **comprehensive, auto-genera
 <td>
 
 🔍 **Smart Type Annotations**
+
 - Lua Language Server compatible
 - Parameter type hints
 - Return value documentation
@@ -61,6 +63,7 @@ Transform your BeamNG.drive modding experience with **comprehensive, auto-genera
 <td>
 
 📁 **Organized Structure**
+
 - Logical API categorization
 - Namespace-based organization
 - Easy navigation & discovery
@@ -70,6 +73,7 @@ Transform your BeamNG.drive modding experience with **comprehensive, auto-genera
 <td>
 
 🛠️ **IDE Integration**
+
 - VS Code ready
 - IntelliJ/CLion support
 - Any LSP-compatible editor
@@ -82,12 +86,14 @@ Transform your BeamNG.drive modding experience with **comprehensive, auto-genera
 ## 🚀 Quick Start
 
 ### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/aethyriion/beamng-stubs.git
-cd beamng-stubs
+git clone https://github.com/aethyriion/beamng-lua-stubs.git
+cd beamng-lua-stubs
 ```
 
 ### 2️⃣ Configure Your IDE
+
 <details>
 <summary><b>🔵 VS Code Setup</b></summary>
 
@@ -97,7 +103,7 @@ cd beamng-stubs
 ```json
 {
     "Lua.workspace.library": [
-        "path/to/beamng-stubs/stubs"
+        "path/to/beamng-lua-stubs/stubs"
     ],
     "Lua.diagnostics.globals": [
         "Engine", "BeamNG", "Sim", "FS", "be", "obj", "v",
@@ -105,6 +111,7 @@ cd beamng-stubs
     ]
 }
 ```
+
 </details>
 
 <details>
@@ -113,9 +120,11 @@ cd beamng-stubs
 1. Install the Lua plugin
 2. Add the stubs directory as a library in project settings
 3. Configure Lua SDK to recognize BeamNG globals
+
 </details>
 
-### 3️⃣ Start Coding!
+### 3️⃣ Start Coding
+
 ```lua
 -- Enjoy full autocompletion and type checking! 🎉
 local raycast = Engine.castRay(startPos, endPos, true, false)
@@ -166,6 +175,7 @@ local soundId = Engine.Audio.createSource('AudioGui', 'event:>UI>Click')
 ## 💡 Usage Examples
 
 ### 🎮 Engine Functions
+
 ```lua
 -- Physics & Rendering
 local raycast = Engine.castRay(startPos, endPos, true, false)
@@ -177,6 +187,7 @@ Engine.Audio.playOnce(soundId)
 ```
 
 ### 🚗 Vehicle Development
+
 ```lua
 -- Damage System
 damageTracker.setDamage("engine", "radiatorLeak", true)
@@ -232,6 +243,7 @@ graph LR
 </div>
 
 ### 🛠️ Regenerate Stubs
+
 ```bash
 python3 generate_stubs.py "List of BeamNG Functions and Fields.html" "List of BeamNG Functions and Fields_vehicles.html"
 ```
@@ -256,7 +268,7 @@ We welcome contributions from the BeamNG modding community! Here's how you can h
 <details>
 <summary><b>🐛 Found a Bug?</b></summary>
 
-1. Check if the issue already exists in [Issues](https://github.com/aethyriion/beamng-stubs/issues)
+1. Check if the issue already exists in [Issues](https://github.com/aethyriion/beamng-lua-stubs/issues)
 2. Create a detailed bug report with:
    - Expected vs actual behavior
    - Code snippet demonstrating the issue
@@ -315,6 +327,6 @@ These stubs are generated from publicly available BeamNG.drive documentation and
 
 **Made with ❤️ by the BeamNG modding community**
 
-[⭐ Star this repo](https://github.com/aethyriion/beamng-stubs) • [🐛 Report Issues](https://github.com/aethyriion/beamng-stubs/issues) • [💬 Discussions](https://github.com/aethyriion/beamng-stubs/discussions)
+[⭐ Star this repo](https://github.com/aethyriion/beamng-lua-stubs) • [🐛 Report Issues](https://github.com/aethyriion/beamng-lua-stubs/issues) • [💬 Discussions](https://github.com/aethyriion/beamng-lua-stubs/discussions)
 
 </div>
