@@ -44,10 +44,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/aethyriion/beamng-stubs"
-Repository = "https://github.com/aethyriion/beamng-stubs.git"
-Issues = "https://github.com/aethyriion/beamng-stubs/issues"
-Changelog = "https://github.com/aethyriion/beamng-stubs/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/aethyriion/beamng-lua-stubs"
+Repository = "https://github.com/aethyriion/beamng-lua-stubs.git"
+Issues = "https://github.com/aethyriion/beamng-lua-stubs/issues"
+Changelog = "https://github.com/aethyriion/beamng-lua-stubs/blob/main/CHANGELOG.md"
 
 [project.scripts]
 beamng-generate-stubs = "generate_stubs:main"
